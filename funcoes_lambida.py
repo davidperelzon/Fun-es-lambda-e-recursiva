@@ -17,3 +17,8 @@ print(nome_lambda('juca'))
 
 lista = ['ana', 'maria', 'carlos', 'pedro']
 print(list(map(lambda nome: nome.upper(), lista)))
+
+#retornar gerar uma lista só com valores pares
+
+numeros = [1,2,3,4,5,6,7,8,9,10]
+print(list(filter(lambda x: x % 2 == 0, numeros)))
